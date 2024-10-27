@@ -2,11 +2,11 @@ version: '3.8'
 services:
   postgres:
     image: postgres:latest
-    container_name: my_postgres
+    container_name: postgres
     environment:
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-      POSTGRES_DB: mydatabase
+      POSTGRES_USER: TroveUser001
+      POSTGRES_PASSWORD: TroveHas&&$99989
+      POSTGRES_DB: trovedb
     ports:
       - "5432:5432"
     volumes:
